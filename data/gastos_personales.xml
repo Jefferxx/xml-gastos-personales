@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gastos version="1.0" moneda="USD" propietario="Jefferson Jahyr Jordan Cabrera" id_estudiante="7343">
+  <mes anio="2025" numero="09" presupuesto_mensual="600">
+    <presupuestos>
+      <categoria nombre="Alimentación" limite="220"/>
+      <categoria nombre="Transporte" limite="90"/>
+      <categoria nombre="Vivienda" limite="300"/>
+      <categoria nombre="Ocio" limite="120"/>
+      <categoria nombre="Salud" limite="60"/>
+    </presupuestos>
+    <ingresos>
+      <ingreso id="i1" fecha="2025-09-01" fuente="Salario">
+        <monto>1200.00</monto>
+      </ingreso>
+    </ingresos>
+    <egresos>
+      <egreso id="e1" fecha="2025-09-02" categoria="Alimentación">
+        <descripcion>Almuerzo</descripcion>
+        <monto>6.50</monto>
+      </egreso>
+      <egreso id="e2" fecha="2025-09-03" categoria="Vivienda">
+        <descripcion>Arriendo mensual</descripcion>
+        <monto>280.00</monto>
+      </egreso>
+      <egreso id="e3" fecha="2025-09-05" categoria="Ocio">
+        <descripcion>Cine</descripcion>
+        <monto>6.00</monto>
+      </egreso>
+      <egreso id="e4" fecha="2025-09-06" categoria="Alimentación">
+        <descripcion>Mercado</descripcion>
+        <monto>18.90</monto>
+      </egreso>
+      <egreso id="e5" fecha="2025-09-14" categoria="Alimentación">
+        <descripcion>Supermercado</descripcion>
+        <monto>72.15</monto>
+      </egreso>
+      <egreso id="e6" fecha="2025-09-20" categoria="Salud">
+        <descripcion>Consulta médica</descripcion>
+        <monto>28.00</monto>
+      </egreso>
+      <egreso id="e7" fecha="2025-09-28" categoria="Vivienda">
+        <descripcion>Luz/Agua</descripcion>
+        <monto>36.20</monto>
+      </egreso>
+    </egresos>
+  </mes>
+</gastos>
