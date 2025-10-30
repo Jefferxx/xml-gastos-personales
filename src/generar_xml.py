@@ -11,7 +11,7 @@ def main():
     p.add_argument("--xml", required=True)
     args = p.parse_args()
 
-    with open(args.json, "r", encoding="utf-8") as f:
+    with open(args.json, "r", encoding="utf-8-sig") as f:
         data = json.load(f)
 
     meta = data["meta"]; presup = data["presupuestos"]
