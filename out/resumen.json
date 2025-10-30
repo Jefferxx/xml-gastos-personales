@@ -1,0 +1,46 @@
+{
+  "moneda": "USD",
+  "ingresos": 1200.0,
+  "egresos": 447.75,
+  "saldo": 752.25,
+  "por_categoria": {
+    "Alimentación": 97.55,
+    "Vivienda": 316.2,
+    "Ocio": 6.0,
+    "Salud": 28.0
+  },
+  "presupuestos": {
+    "Alimentación": 220.0,
+    "Transporte": 90.0,
+    "Vivienda": 300.0,
+    "Ocio": 120.0,
+    "Salud": 60.0
+  },
+  "alertas": [
+    {
+      "categoria": "Alimentación",
+      "estado": "ok",
+      "detalle": "97.55/220.00 USD"
+    },
+    {
+      "categoria": "Transporte",
+      "estado": "ok",
+      "detalle": "0.00/90.00 USD"
+    },
+    {
+      "categoria": "Vivienda",
+      "estado": "excedido",
+      "detalle": "316.20/300.00 USD"
+    },
+    {
+      "categoria": "Ocio",
+      "estado": "ok",
+      "detalle": "6.00/120.00 USD"
+    },
+    {
+      "categoria": "Salud",
+      "estado": "ok",
+      "detalle": "28.00/60.00 USD"
+    }
+  ]
+}
