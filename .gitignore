@@ -1,0 +1,12 @@
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Salidas del proyecto
+out/
+
+# SO / Editor
+.DS_Store
+.vscode/

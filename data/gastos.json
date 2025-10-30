@@ -1,0 +1,29 @@
+﻿{
+  "meta": {
+    "propietario": "Jefferson Jahyr Jordan Cabrera",
+    "id_estudiante": "7343",
+    "moneda": "USD",
+    "anio": 2025,
+    "mes": 9,
+    "presupuesto_mensual": 600
+  },
+  "presupuestos": {
+    "Alimentación": 220,
+    "Transporte": 90,
+    "Vivienda": 300,
+    "Ocio": 120,
+    "Salud": 60
+  },
+  "ingresos": [
+    { "fecha": "2025-09-01", "fuente": "Salario", "monto": 1200.00 }
+  ],
+  "egresos": [
+    { "fecha": "2025-09-02", "categoria": "Alimentación", "descripcion": "Almuerzo", "monto": 6.50 },
+    { "fecha": "2025-09-03", "categoria": "Vivienda", "descripcion": "Arriendo mensual", "monto": 280.00 },
+    { "fecha": "2025-09-05", "categoria": "Ocio", "descripcion": "Cine", "monto": 6.00 },
+    { "fecha": "2025-09-06", "categoria": "Alimentación", "descripcion": "Mercado", "monto": 18.90 },
+    { "fecha": "2025-09-14", "categoria": "Alimentación", "descripcion": "Supermercado", "monto": 72.15 },
+    { "fecha": "2025-09-20", "categoria": "Salud", "descripcion": "Consulta médica", "monto": 28.00 },
+    { "fecha": "2025-09-28", "categoria": "Vivienda", "descripcion": "Luz/Agua", "monto": 36.20 }
+  ]
+}
